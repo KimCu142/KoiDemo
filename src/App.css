@@ -1,0 +1,43 @@
+/* App.css */  
+
+body {  
+    font-family: Arial, sans-serif; /* Font chữ */  
+    display: flex; /* Áp dụng flexbox cho body */  
+    flex-direction: column; /* Sắp xếp các phần tử theo chiều dọc */  
+    min-height: 100vh; /* Chiều cao tối thiểu bằng chiều cao của viewport */  
+     
+}  
+
+.Header {  
+    width: 100%; /* Chiều rộng 100% */  
+    position: fixed; /* Giữ Header cố định ở trên cùng */  
+    top: 0; /* Đặt ở trên cùng */  
+    left: 0; /* Đặt bên trái */  
+}  
+
+.container {  
+    flex: 1; /* Làm cho container chiếm hết không gian còn lại giữa Header và Footer */  
+    display: flex; /* Sử dụng flexbox trong container */  
+    flex-direction: column; /* Sắp xếp các phần tử theo chiều dọc */  
+    align-items: center; /* Căn giữa các thành phần theo chiều ngang */  
+    justify-content: center; /* Căn giữa các thành phần theo chiều dọc */  
+    margin-top: 80px; /* Đẩy nội dung xuống để tránh che bởi Header */  
+    margin-bottom: 40px; /* Đẩy nội dung lên để tránh che bởi Footer */  
+}  
+
+.Login {  
+    background-color: #fff; /* Màu nền cho Login */  
+    padding: 40px; /* Khoảng cách bên trong */  
+    border-radius: 8px; /* Bo góc */  
+    margin: 20px 0; /* Khoảng cách trên và dưới */  
+    width: 300px; /* Chiều rộng cố định */  
+}  
+
+.Footer {  
+  width: 100%; /* Chiều rộng 100% */  
+  text-align: center; /* Căn giữa nội dung */  
+  position: fixed; /* Giữ Footer cố định ở dưới cùng */  
+  bottom: 0; /* Đặt ở dưới cùng */  
+  left: 0; /* Đặt bên trái */  
+
+}  

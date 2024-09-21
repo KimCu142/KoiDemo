@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 0 20px;
+  background-image: url('D:\Ky5\FER\demovite\KoiAuction\src\assets\Koi1.png');
+  background-color: #dfe0e2;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.form-container {
+  display: flex;
+  width: 1200px;
+  height: 80%;
+}
+.glass {
+  background-color: unset;
+  backdrop-filter: blur(5px) !important;
+}
+.col-3 {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  flex-direction: column;
+  width: 45%;
+}
+.col-1 {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  flex-direction: column;
+  width: 80%;
+  
+  backdrop-filter: blur (20px);
+  border-radius: 24px 24px 24px 24px;
+  transition: border-radius 0.3s;
+}
+
+.col-2 {
+  display: flex;
+  align-items: center;
+  justify-self: center;
+  flex-direction: column;
+  width: 50%;
+  backdrop-filter: blur (20px);
+  border-radius: 0 30% 20% 0;
+  transition: border-radius 0.3s;
+}
+
+.form-image-main {
+  padding-top: 10px;
+  width: 300px;
+}
+
+.featured-words {
+  text-align: center;
+  color: #fff;
+  width: 300px;
+  color: black;
+  font-size: 30px;
+}
+.featured-words span {
+  font-weight: 600;
+  color: cornflowerblue;
+}
+
+.login-words {
+  font-family: "Oswald", sans-serif;
+  font-size: 50px;
+  padding-top: 40px;
+}
+/* Kiểu cho form đăng nhập */
+form {
+  background-color: #d5d5d9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+.login-form {
+  margin-top: 60px;
+}
+
+/* Kiểu cho nhãn của trường nhập */
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: thin;
+  color: black;
+}
+
+/* Kiểu cho ô nhập */
+input[type="text"],
+input[type="password"] {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 24px;
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: #cacbcf;
+  color: black;
+}
+
+/* Kiểu cho nút submit */
+button {
+  margin-top: 10px;
+  width: 100%;
+  padding: 10px;
+  background-color: #d4163c !important;
+  border: none;
+  border-radius: 24px !important;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+
+
+.login_google {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background-color: #cacbcf !important;
+  color: black;
+  
+}
+.login_google_form {
+  margin-top: 20px;
+}
+
+.register-link {
+
+  margin-top: 20px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.register-link a {
+  padding: 7px;
+  font-size: 12px;
+  background-color:#4685AF ;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+
