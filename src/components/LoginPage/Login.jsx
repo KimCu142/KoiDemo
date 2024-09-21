@@ -14,9 +14,7 @@ export default class Login extends Component {
                 className="form-image-main"
               />
             </div>
-            <p className="featured-words">
-              Bid<span>Koi</span>
-            </p>
+            
           </div>
         </div>
         <div className="col col-2">
